@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#name {
+  background-color: #EEEEEE;
+}
+
+#projects {
+  background-color: #EEEEEE;
+}
+
+#info {
+  background-color: #EEEEEE;
+}
+
+.card {
+  margin-bottom: 10em;
+}
+
+img {
+  width: 100%;
+}
