@@ -32,3 +32,33 @@ code {
 img {
   width: 100%;
 }
+
+ul {
+  position: absolute;
+  right: 4px;
+  list-style: none;
+  
+}
+ 
+li {
+  float:left;
+  margin: 2px;
+  padding: 3px;
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
