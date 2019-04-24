@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './links.css';
 
 export default function Links() {
   return (
-    <div>
+    <div className="links">
       <ul>
         <li>LinkedIn</li>
         <li>GitHub</li>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Intro extends Component {
   render() {
     return (
-      <div>
+      <div className="intro">
         <h2>I am a full stack web developer.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, recusandae maxime. Omnis sunt animi ex.</p>
         <h3>Skills</h3>

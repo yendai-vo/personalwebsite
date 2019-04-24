@@ -5,7 +5,8 @@ import './ProjectCard.css';
 class ProjectCard extends Component {
   render() {
     return (
-      <div>
+      <div class="container">
+        
         <div class="card">
           <img class="card-img-top" src={fsStudents} alt="fs" />
           <div class="card-body">

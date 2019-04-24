@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import ProjectCard from '../Components/ProjectCard';
-
+import './Projects.css';
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="projects">
         <h1>Projects</h1>
         <ProjectCard />
       </div>

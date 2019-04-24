@@ -1,3 +1,7 @@
 figure {
     float: left;
 }
+
+.flip {
+    transform: rotate(90deg);
+}
