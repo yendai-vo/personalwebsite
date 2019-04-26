@@ -6,6 +6,10 @@
   padding: 5px;
 }
 
+.iconsList {
+  font-size: 25px;
+}
+
 .fa {
   color: black;
 }
