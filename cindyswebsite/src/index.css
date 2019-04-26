@@ -13,12 +13,16 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #name {
   background-color: #EEEEEE;
 }
 
 #projects {
-  background-color: #EEEEEE;
+  background-color: white;
 }
 
 #info {
@@ -33,18 +37,21 @@ img {
   width: 100%;
 }
 
-ul {
+.navUList {
   position: absolute;
-  right: 4px;
+  right: 10px;
   list-style: none;
   
 }
  
-li {
+.navList {
   float:left;
   margin: 2px;
   padding: 3px;
   font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 a:link {
@@ -57,8 +64,28 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  color: #b7bfcc;  
 }
 
 a:active {
   text-decoration: none;
+}
+
+.navLink {
+  color: white;
+}
+
+.scrollDiv {
+  position: fixed;
+  top: 97%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 10px;
+  font-size: 35px;
+  color: black;
+}
+
+.scrollIcon {
+  color: black;
 }

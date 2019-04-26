@@ -1,7 +1,22 @@
-figure {
-    float: left;
-}
 
-.flip {
-    transform: rotate(90deg);
-}
+a {
+    position: relative
+  }
+  
+  a span {
+    display: none;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    height: 92%;
+    padding: 10px;
+    background: rgba(0,0,0,.6);
+  }
+
+  a:hover span {
+    display: block;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+  }

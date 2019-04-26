@@ -1,3 +1,10 @@
-.contact {
-    background-color: #dee3ea;
+.title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 70px;
+}
+
+.email, .gitHub{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }

@@ -4,9 +4,11 @@ import './Portfolio.css';
 class Portfolio extends Component {
   render() {
     return (
-      <div className = "mainImage">
-        <h1> Cindy Vo </h1>
-        <h3>Hello there! </h3>
+      <div className="mainImage name" id="portfolio">
+        <div className="container">
+            <h1 className="myName"> Cindy Vo </h1>
+        </div>
+        <h2 className="saying">Let's build something amazing together!</h2>
       </div>
     )
   }

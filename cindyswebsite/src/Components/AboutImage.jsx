@@ -11,59 +11,31 @@ import fsCindy from '../images/fsCindy.JPG';
 
 import './AboutImage.css';
 class AboutImage extends Component {
+
+  
   render() {
+    const imageArray = [
+      {img: dobieCamp, text: 'Dobie Wan Kenobi at Camp'},
+      {img: hangingLake, text: 'Hike to the Hanging Lake'},
+      {img: groupGC, text: 'Post-Grad Trip to the Grand Canyons'},
+      {img: skydiving, text: 'Bravely Skydiving'},
+      {img: fsSari, text: 'Celebrating Diwali'},
+      {img: familyBeach, text: 'Family Vacation at St. Petersburg, FL'},
+      {img: fsStudents, text: 'Graduation at Flatiron School'},
+      {img: fsCindy, text: 'Flatiron Student'}
+    ];
+
     return (
       <div class="container">
         <div class="row text-center text-lg-left">
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/dobieCamp.jpg" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={dobieCamp} alt="Dobie at Camp"/>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/fsSari.jpg" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={fsSari} alt="Flatiron Diwali"/>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/fsStudents.JPG" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={fsStudents} alt="Flatiron Students"/>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/familyBeach.jpg" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={familyBeach} alt="Family at Beach"/>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/groupGC.jpg" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={groupGC} alt="Group at Grand Canyons"/>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/hangingLake.JPG" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={hangingLake} alt="Hanging Lake"/>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/skydiving.jpg" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={skydiving} alt="Cindy Skydiving"/>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="../images/fsCindy.JPG" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src={fsCindy} alt="Cindy at Flatiron"/>
-            </a>
-          </div>
-
+          {imageArray.map(photoObject => (
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="../images/dobieCamp.jpg" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src={photoObject.img} alt={photoObject.text}/>
+                <span>{photoObject.text}</span>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
               

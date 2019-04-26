@@ -1,6 +1,7 @@
 .card {
     float: left;
-    width: 18rem;   
+    width: 18rem;
+       
 }
 
 .container {
@@ -8,3 +9,13 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.card-text {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* .card-img-top {
+    height: 18rem;
+} */

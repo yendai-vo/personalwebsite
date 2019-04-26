@@ -13,28 +13,30 @@ import Contact from './Containers/Contact';
 const routing = (
   <Router>
     <div>
-
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
+        <ul className="navUList">
+          <li className="navList">
+            <Link to="/" className="navLink">Home</Link>
           </li>
-          <li>
-            <Link to="/projects">Projects</Link>
+          <li className="navList">
+            <a href="#projects" className="navLink">Projects</a>
           </li>
-          <li>
-            <Link to="/about">About</Link>
+          <li className="navList">
+            <a href="#aboutMe" className="navLink">About</a>
           </li>
-          <li>
-            <Link to="/contact">Contact</Link>
+          <li className="navList">
+            <a href="#contact" className="navLink">Contact</a>
           </li>
         </ul>
-    
+        <div class="scrollDiv">
+          <a href="#portfolio" className="scrollIcon" ><i class="fas  fa-arrow-circle-up"></i></a>
+        </div>
       <Route exact path="/" component={App} />
       <Route path="/portfolio" component={Portfolio} />
       <Route path="/intro" component={Intro} />
       <Route path="/projects" component={Projects} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      
     </div>
   </Router>
 )

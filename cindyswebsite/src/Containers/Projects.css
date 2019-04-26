@@ -1,3 +1,9 @@
+.title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 70px;
+}
+
 .projects {
-    background-color: #dee3ea;
+    background-color: white;
 }

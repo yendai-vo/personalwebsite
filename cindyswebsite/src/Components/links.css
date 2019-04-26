@@ -1,3 +1,20 @@
-.links {
-    background-color: #dee3ea;
+.iconsUList {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  padding: 5px;
+}
+
+.fa {
+  color: black;
+}
+
+.fab {
+  color: black;
+}
+
+.iconsList {
+  margin: 5px;
+  padding: 3px;
 }
