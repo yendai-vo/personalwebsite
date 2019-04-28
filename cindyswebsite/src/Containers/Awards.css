@@ -1,0 +1,12 @@
+.awardsDiv {
+    background-color: #EDEEEF;
+    padding-bottom: 80px;
+}
+
+.awardsTitle {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}

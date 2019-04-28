@@ -14,6 +14,10 @@ export default function Links() {
         <li className="iconsList">
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@cindyvo_98634"><i class="fab fa-medium"></i></a>
         </li>
+        <li className="iconsList">
+          <a href="mailto:yendai.vo@hotmail.com?"><i class="fas fa-envelope"></i></a>
+        </li>
+
       </ul>
     </div>
   )

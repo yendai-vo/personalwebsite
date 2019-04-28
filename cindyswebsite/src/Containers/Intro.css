@@ -1,5 +1,6 @@
 .intro {
     background-color: #EDEEEF;
+    padding-bottom: 80px;
 }
 
 .iAm {
@@ -13,26 +14,4 @@
 .striveFor {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
-}
-
-.skillTitle {
-    padding-top: 50px;
-    padding-bottom: 10px;
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-.skillsUList {
-    padding-bottom: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.skillsList {
-    list-style: none;
-    padding: 10px;
-    font-size: 30px;
-    font-family: 'Amatic SC', cursive;
-    
 }

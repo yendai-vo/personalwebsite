@@ -84,6 +84,7 @@ a:active {
   right: 10px;
   font-size: 35px;
   color: black;
+  z-index: 1;
 }
 
 .scrollIcon {
