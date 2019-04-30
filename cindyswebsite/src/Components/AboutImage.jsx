@@ -26,18 +26,32 @@ class AboutImage extends Component {
     ];
 
     return (
+      // <div class="containerCard">
+      //   <div class="row text-center text-lg-left">
+      //     {imageArray.map(photoObject => (
+      //       <div class="col-lg-3 col-md-4 col-6 imageCard">
+      //         <a href="../images/dobieCamp.jpg" class="d-block mb-4 h-100">
+      //           <img class="img-fluid img-thumbnail galleryImage" src={photoObject.img} alt={photoObject.text}/>
+      //           <span>{photoObject.text}</span>
+      //         </a>
+      //       </div>
+      //     ))}
+      //   </div>
+      // </div>
       <div class="containerCard">
         <div class="row text-center text-lg-left">
           {imageArray.map(photoObject => (
             <div class="col-lg-3 col-md-4 col-6 imageCard">
-              <a href="../images/dobieCamp.jpg" class="d-block mb-4 h-100">
                 <img class="img-fluid img-thumbnail galleryImage" src={photoObject.img} alt={photoObject.text}/>
-                <span>{photoObject.text}</span>
-              </a>
+                <div className="middle">
+                  <div className="text">
+                    {photoObject.text}
+                  </div>
+                </div>
             </div>
           ))}
         </div>
-      </div>
+        </div>
               
     )
   }

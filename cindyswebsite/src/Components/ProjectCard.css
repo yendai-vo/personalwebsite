@@ -1,7 +1,8 @@
 .card {
     float: left;
     width: 18rem;
-       
+    margin: 20px;
+    margin-bottom: 80px;
 }
 
 .card-title {
@@ -23,4 +24,8 @@
 
 .projectCardDiv {
     padding-top: 10px;
+}
+
+.projectCard {
+    width: 400px;
 }

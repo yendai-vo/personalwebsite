@@ -9,7 +9,7 @@ class Contact extends Component {
         <h4 className="email"><b>Email Adress:</b>&nbsp;&nbsp;yendai.vo@hotmail.com</h4>
         <h4 className="gitHub"><b>GitHub:</b>&nbsp;&nbsp;yendai-vo</h4>
         <Links />
-        <p>&copy; 2019 Cindy Vo</p>
+        <p className="copyright">&copy; 2019 Cindy Vo</p>
       </div>
     )
   }

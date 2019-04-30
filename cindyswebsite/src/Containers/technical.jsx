@@ -16,6 +16,7 @@ export default class technical extends Component {
           <li className="skillsList">CSS</li>
           <li className="skillsList">Git</li>
         </ul>
+        <p>Open a PDF file <a href="../Resume.pdf">example</a></p>
       </div>
     )
   }

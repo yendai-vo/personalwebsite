@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import fsStudents from '../images/fsStudents.JPG';
 import './ProjectCard.css';
 
 class ProjectCard extends Component {
@@ -7,7 +6,7 @@ class ProjectCard extends Component {
     return (
       <div class="container projectCardDiv">
 
-        <div class="card">
+        <div class="card projectCard">
           <div class="card-body">
             <h5 class="card-title">FoodPopper</h5>
             {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
@@ -18,7 +17,7 @@ class ProjectCard extends Component {
           </div>
         </div>
 
-        <div class="card">
+        <div class="card projectCard">
           <div class="card-body">
             <h5 class="card-title">Flatiron Trivia Game</h5>
             <p class="card-text">Worked in a team of 3 to create a basic trivia game with Vanilla Javascript and Ruby-on-Rails.</p>
@@ -27,7 +26,7 @@ class ProjectCard extends Component {
           </div>
         </div>
 
-        <div class="card">
+        <div class="card projectCard">
           <div class="card-body">
             <h5 class="card-title">Card Game</h5>
             <p class="card-text">Created a full-stack application that allowed users to create a deck of 52 playing cards, then shuffle and draw 5 cards at random.</p>
@@ -36,7 +35,7 @@ class ProjectCard extends Component {
           </div>
         </div>
 
-        <div class="card">
+        <div class="card projectCard">
           <div class="card-body">
             <h5 class="card-title">Foodie</h5>
             <p class="card-text">Fully functional Pinterest-inspired application for the chef at heart. Allows users to create, pin, share, update, and delete recipes.</p>
