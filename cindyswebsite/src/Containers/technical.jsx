@@ -4,7 +4,7 @@ import './technical.css';
 export default class technical extends Component {
   render() {
     return (
-      <div className="technicalDiv">
+      <div className="technicalDiv" id="technical">
         <h3 className="skillTitle"> Technical Skills</h3>
         <ul className="skillsUList">
           <li className="skillsList">ReactJS</li>
@@ -16,7 +16,9 @@ export default class technical extends Component {
           <li className="skillsList">CSS</li>
           <li className="skillsList">Git</li>
         </ul>
-        <p>Open a PDF file <a href="../Resume.pdf">example</a></p>
+        <button className="btn btn-light btn-lg resumeButton">
+          <a className="resume" href="Resume.pdf" target="_blank" rel="noopener noreferrer">Resumé</a>
+        </button>
       </div>
     )
   }

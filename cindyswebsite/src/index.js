@@ -18,6 +18,9 @@ const routing = (
             <Link to="/" className="navLink">Home</Link>
           </li>
           <li className="navList">
+            <a href="#technical" className="navLink">Skills</a>
+          </li>
+          <li className="navList">
             <a href="#projects" className="navLink">Projects</a>
           </li>
           <li className="navList">
